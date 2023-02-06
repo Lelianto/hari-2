@@ -1,5 +1,9 @@
 git init
+git remote add origin https://github.com/Lelianto/hari-2.git
+
 git add .
 git commit -m "upload semua file"
-git remote add origin https://github.com/Lelianto/hari-2.git
 git push origin master
+
+git checkout -b staging
+git checkout master
